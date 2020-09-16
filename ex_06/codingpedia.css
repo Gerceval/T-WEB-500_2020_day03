@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  min-width: 4em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  padding-bottom: 2.5rem;
+}
+
+article, aside {
+  border: 1px solid black;
+  margin: 1%;
+  padding: 1%;
+}
+
+.formfield {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4.5em 0 4.5em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.radio-wrapper {
+  display: flex;
+}
+
+.submit-button {
+  justify-content: flex-end;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+input[type="tel"],
+select, 
+textarea {
+  width: 60%;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  width: 25%;
+  border-radius: 5% 50% 50% 5%;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  width: 99%;
+  height: 2.5rem;
+}
